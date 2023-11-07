@@ -1,7 +1,9 @@
+import PickUpAndDropCard from "@/components/PickUpAndDropCard";
+
 export default function Home() {
   return (
-    <div>
-      <h1>teste my brother</h1>
+    <div className="my-8">
+      <PickUpAndDropCard/>
     </div>
   )
 }
