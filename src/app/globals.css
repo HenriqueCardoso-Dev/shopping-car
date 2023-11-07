@@ -1,4 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 
+:root {
+  --primary: #3563E9;
+  --primary-light: #5CAFFC;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
