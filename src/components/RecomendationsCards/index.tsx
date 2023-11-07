@@ -1,5 +1,5 @@
-import DropOffBackground from "../../../public/assets/img/drop-off-card-background.png";
-import PickUpBackground from "../../../public/assets/img/pick-up-card-background.png";
+import SecondaryBackground from "../../../public/assets/img/secondary-background.png";
+import PrimaryBackground from "../../../public/assets/img/primary-background.png";
 
 import ButttonDefault from "../ButtonDefault";
 
@@ -9,12 +9,12 @@ import CarPhoto1 from "../../../public/assets/img/car-1.png"
 import CarPhoto2 from "../../../public/assets/img/car-2.png"
 
 
-export default function PickUpAndDropCard() {
+export default function RecomendationsCards() {
   return (
     <section className="w-full flex justify-between max-w-[1312px] m-auto">
       <div
         style={{
-          backgroundImage: `url(${PickUpBackground.src})`,
+          backgroundImage: `url(${PrimaryBackground.src})`,
           height: "360px", width: "640px",
           backgroundSize: 'cover',
         }}
@@ -37,7 +37,7 @@ export default function PickUpAndDropCard() {
 
       <div
         style={{
-          backgroundImage: `url(${DropOffBackground.src})`,
+          backgroundImage: `url(${SecondaryBackground.src})`,
           height: "360px", width: "640px",
           backgroundSize: 'cover',
         }}
