@@ -14,8 +14,9 @@ export default function RecomendationsCards() {
     <section className="w-full flex justify-between">
       <div
         style={{
-          backgroundImage: `url(${PrimaryBackground.src})`,
-          height: "360px", width: "640px",
+          backgroundImage: `url(${SecondaryBackground.src})`,
+          height: "360px", width: "46%",
+          borderRadius: "10px",
           backgroundSize: 'cover',
         }}
       >
@@ -37,8 +38,9 @@ export default function RecomendationsCards() {
 
       <div
         style={{
-          backgroundImage: `url(${SecondaryBackground.src})`,
-          height: "360px", width: "640px",
+          backgroundImage: `url(${PrimaryBackground.src})`,
+          height: "360px", width: "46%",
+          borderRadius: "10px",
           backgroundSize: 'cover',
         }}
       >
