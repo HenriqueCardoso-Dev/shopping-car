@@ -11,7 +11,7 @@ import CarPhoto2 from "../../../public/assets/img/car-2.png"
 
 export default function RecomendationsCards() {
   return (
-    <section className="w-full flex justify-between max-w-[1312px] m-auto">
+    <section className="w-full flex justify-between">
       <div
         style={{
           backgroundImage: `url(${PrimaryBackground.src})`,

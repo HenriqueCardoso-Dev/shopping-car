@@ -6,8 +6,10 @@
 :root {
   --primary: #3563E9;
   --primary-light: #5CAFFC;
+  --background-page: #F6F7F9;
 }
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
+  user-select: none;
 }
