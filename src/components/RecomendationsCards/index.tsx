@@ -1,7 +1,7 @@
 import SecondaryBackground from "../../../public/assets/img/secondary-background.png";
 import PrimaryBackground from "../../../public/assets/img/primary-background.png";
 
-import ButttonDefault from "../ButtonDefault";
+import ButtonDefault from "../ButtonDefault";
 
 import Image from "next/image";
 
@@ -29,7 +29,7 @@ export default function RecomendationsCards() {
           </h1>
 
           <span className="text-base max-w-[284px] break-words tracking-[.32px] font-medium mb-[16px]">Ease of doing a car rental safely and reliably. Of course at a low price.</span>
-          <ButttonDefault classname="rounded w-[120px] h-[44px] text-base" content="Rental Car" />
+          <ButtonDefault classname="rounded w-[120px] h-[44px] text-base" content="Rental Car" />
         </div>
         <div className="flex justify-center">
           <Image src={CarPhoto1.src} alt={""} width={406} height={116} className="object-cover"/>
@@ -55,10 +55,10 @@ export default function RecomendationsCards() {
           <span className="text-base max-w-[284px] break-words tracking-[.32px] font-medium mb-[16px]">
             Providing cheap car rental services and safe and comfortable facilities.
           </span>
-          <ButttonDefault classname="rounded w-[120px] h-[44px] text-base" content="Rental Car" theme="primary-light"/>
+          <ButtonDefault classname="rounded w-[120px] h-[44px] text-base" content="Rental Car" theme="primary-light"/>
         </div>
         <div className="flex justify-center">
-          <Image src={CarPhoto2.src} alt={""} width={340} height={108} className="object-cover"/>
+          <Image src={CarPhoto2.src} alt={""} width={320} height={88} className="object-cover"/>
         </div>
       </div>
     </section>

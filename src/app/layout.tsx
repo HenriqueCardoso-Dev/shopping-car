@@ -17,7 +17,7 @@ export default function RootLayout({
         <HeaderMain />
         
         <section className="bg-[var(--background-page)]">
-          <div className="py-8 h-screen max-w-[70%] m-auto">
+          <div className="py-8 max-w-[70%] m-auto">
             {children}
           </div>
         </section>

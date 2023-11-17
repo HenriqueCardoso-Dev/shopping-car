@@ -5,7 +5,7 @@ interface props {
   theme ?: string
 }
 
-export default function ButttonDefault(props : props) {
+export default function ButtonDefault(props : props) {
   return (
     <button
       onClick={props?.action}
